@@ -1,0 +1,25 @@
+/* メイン側のCSS */
+
+
+
+/* サイドバー側のCSS */
+.search-box .object {
+    background-color: #2e2e2e;
+    color: white;
+    font-weight: bold;
+    margin-top: 10px;
+    padding: 10px 50px;
+    text-align: center;
+}
+
+.admin-block {
+    background-color: #ebebeb;
+}
+
+/* @media 保管 */
+@media(min-width: 768px){
+    #main {
+        display: flex;
+        justify-content: space-between;
+    }    
+}

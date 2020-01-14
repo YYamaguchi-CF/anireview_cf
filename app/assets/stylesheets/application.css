@@ -13,3 +13,16 @@
  *= require_tree .
  *= require_self
  */
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+/* ドロワーの資材 */
+.show {
+    transform: translate3d(-200px, 0, 0);
+}
+#wrapper {
+    transition: transform 0.3s;
+}

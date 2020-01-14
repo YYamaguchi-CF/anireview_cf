@@ -1,0 +1,90 @@
+/* ナビバー上層部 */
+.nav-top {
+    background-color: #2e2e2e;
+    text-align: center;
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-top h1 {
+    padding-top: 5px;
+    margin: 0;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.nav-top h1 a {
+    text-decoration: none;
+    color: white;
+}
+
+.nav-top h1 a:hover {
+    color: #c4c4c4;
+}
+
+.nav-top p {
+    padding: 8px 0px;
+    font-weight: bold;
+    margin: 0;
+}
+
+.hamburger {
+    right: 0;
+    width: 30px;
+    height: 30px;
+    margin: 7px 3px 0 0;
+    cursor: pointer;
+    position: fixed;
+}
+
+/* ナビバー下層部 */
+.menu-bar {
+    background-color: #242424;
+    width: 100%;
+    margin:0 auto;
+    text-align: center;
+}
+
+/* floatによる背景色削除回避 */
+.menu-bar:after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.menu-bar li {
+    list-style-type: none;
+    float: left;
+    padding: 10px 0;
+    width: 20%;
+}
+
+.menu-bar li a {
+    text-decoration: none;
+    color: white;
+    display: block;
+}
+
+.menu-bar li:hover {
+    background-color: #4a4a4a;
+}
+
+/* メイン画像 */
+.main_image {
+    width: 100%;
+    height: 300px;
+}
+ 
+/* @media 保管 */
+@media(max-width: 768px){
+    .menu-bar{
+        display: none;
+    }
+}
+
+@media(min-width: 768px){
+    .hamburger{
+        display: none;
+    }
+}
