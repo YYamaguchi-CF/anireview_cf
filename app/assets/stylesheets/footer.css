@@ -1,0 +1,39 @@
+/* フッター */
+#footer-block {
+    background-color: #242424;
+    text-align: center;
+    color: white;
+}
+
+#footer-block h1 {
+    padding-top: 5px;
+    margin: 0;
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+#footer-block h1 a {
+    text-decoration: none;
+    color: white;
+}
+
+#footer-block h1 a:hover {
+    color: #c4c4c4;
+}
+
+#footer-block p {
+    padding: 8px 0px;
+    font-weight: bold;
+    margin: 0;
+    font-size: 14px;
+}
+
+#footer-block p a {
+    text-decoration: none;
+    color: white;
+}
+
+#footer-block p a:hover {
+    color: #c4c4c4;
+}

@@ -1,0 +1,29 @@
+/* ドロワー */
+.drawer {
+    padding: 24px 24px 0 24px;
+    background: #2e2e2e;
+    color: white;
+}
+.drawer ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.drawer li a {
+    display: block;
+    padding: 0.75rem 0;
+    border-bottom: 1px solid #114d60;
+    text-decoration: none;
+    color: #fff;
+}
+.drawer li a:hover {
+    background: #0e3e4d;
+}
+
+.drawer {
+    width: 200px;
+    height: 100%;
+    position: fixed;
+    right: -200px;
+    top: 0;
+}
